@@ -1,0 +1,36 @@
+.row {
+  margin-left: 20px;
+}
+/* .row-title { 
+    margin-inline-start: 20px; */
+
+/* }  */
+.row-posters {
+  display: flex;
+  margin-inline-start: 30px;
+  margin-block-start: 5px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scrollbar-width: 1px;
+  padding: 20px;
+}
+.row-posters::-webkit-scrollbar {
+  display: none;
+}
+.row-poster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  margin-right: 10px;
+  /* box-shadow: 0px 0px 5px 2px rgb(255, 254, 254); */
+  transition: transform 450ms;
+}
+.row-poster-large {
+  max-height: 250px;
+}
+.row-poster:hover {
+  transform: scale(1.08);
+}
+.row-poster-large:hover {
+  transform: scale(1.08);
+}
