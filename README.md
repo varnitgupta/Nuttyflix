@@ -1,1 +1,1 @@
-# Nuttyflix - netflix clone
+# Nuttyflix - Netflix clone
